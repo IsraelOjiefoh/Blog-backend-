@@ -5,7 +5,9 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node server.js"
+    "dev": "node server.js",
+    "start": "node server.js",
+    "build": "echo \"No build process specified\""
   },
   "secureProtocol": "tls",
   "keywords": [],
@@ -16,7 +18,6 @@
     "dotenv": "^16.3.1",
     "express": "^4.18.2",
     "mongodb": "^6.3.0",
-    "mongoose": "^8.0.3",
-    "nodemon": "^3.0.2"
+    "mongoose": "^8.0.3"
   }
 }
